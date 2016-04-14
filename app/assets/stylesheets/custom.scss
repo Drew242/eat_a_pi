@@ -1,0 +1,21 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url("Coffee_steam.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container-intro {
+  position: fixed;
+  margin-top: 1em;
+  max-height: 40%;
+  max-width: 80%;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter',
+               'Lucida Typewriter', monospace;
+}
