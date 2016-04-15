@@ -19,3 +19,20 @@ body {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter',
                'Lucida Typewriter', monospace;
 }
+
+a.btn.btn-lg.btn-default.btn-home {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-width: 2px;
+  color: white;
+  font-weight: 200;
+  border-color: white;
+  margin-top: 5em;
+}
+
+a.btn.btn-lg.btn-default.btn-home:hover {
+  background-color: white;
+  border-color: black;
+  font-weight: 400; 
+  color: black;
+  opacity: 1;
+}
