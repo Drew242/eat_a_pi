@@ -5,5 +5,6 @@ class User < ActiveRecord::Base
     user.username        = oauth_data.username
     user.access_token    = oauth_data.oauth_token
     user.access_secret   = oauth_data.oauth_verifier
+    return user
   end
 end
