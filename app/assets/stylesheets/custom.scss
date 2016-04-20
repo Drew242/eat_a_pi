@@ -29,6 +29,15 @@ a.btn.btn-lg.btn-default.btn-home {
   margin-top: 5em;
 }
 
+a.btn.btn-lg.btn-default.btn-logout {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-width: 2px;
+  color: white;
+  font-weight: 200;
+  border-color: white;
+  margin-top: 5em;
+}
+
 a.btn.btn-lg.btn-default.btn-home:hover {
   background-color: rgba(255, 255, 255, 0.3);
   border-color: rgba(0, 0, 0, 0.3);

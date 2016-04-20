@@ -1,7 +1,7 @@
 <div class="container-fluid container-home">
   <div class="col-md-4 col-md-offset-1 container-intro">
     <h1 id="good-morning">Good Morning</h1>
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-8 col-md-offset-1">
       <p>Welcome to the breakfast nook. We have plenty of pi(e) to choose from.
          Enjoy your stay and please feel free to join our community.</p>
     </div>
@@ -12,9 +12,9 @@
         class: "btn btn-lg btn-default btn-home" %>
   </div>
   <% else %>
-  <div class="col-md-2 col-md-offset-10 container-logout">
+  <div class="col-md-2 col-md-offset-1 container-logout">
     <%= link_to "Logout", logout_path,
-        class: "btn btn-lg btn-default btn-home" %>
+        class: "btn btn-lg btn-default btn-logout" %>
   </div>
   <% end %>
 </div>
